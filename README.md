@@ -1,6 +1,6 @@
 # My Portfolio Website
 
-This was a website built to showcase my technical skills, web design skills.
+Hi,this is my personal website. The purpose of this was to showcase my technical skills and my web design skills.
 
 ## Technologies used
 
