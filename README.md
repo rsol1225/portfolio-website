@@ -4,10 +4,13 @@ Hi,this is my personal website. The purpose of this was to showcase my technical
 
 ## Technologies used
 
-HTML5
-CSS3
-JavaScript (ES6)
-SCSS
-Git
-GitHub
-Google Fonts
+<ul>
+<li>HTML5</li>
+<li>CSS3</li>
+<li>JavaScript</li>
+<li>SCSS</li>
+<li>Git </li>
+<li>GitHub </li>
+</ul>
+
+
