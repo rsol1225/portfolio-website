@@ -1,0 +1,68 @@
+/* General Styling */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+p{
+    color: rgb(85,85,85)
+}
+
+/* TRANSITION */
+
+a, .btn{
+    transition: all 300ms ease;
+}
+
+/* NAVIGATION */
+
+nav, .nav-links{
+    display: flex; /*display decides how things are arranges */
+}
+
+nav{
+    justify-content: space-around; /*how the browser distributes space between and around content items towards the center*/
+    align-items: center;
+    height: 17vh; /*depends on the height of the screen, takes 17% of the whole screen*/ 
+}
+
+.nav-links{
+    gap: 2rem; /* gap between the spaces */
+    list-style: none; /* getting rid of the bullet points */
+    font-size: 1.5rem; 
+}
+
+/* styling the links */
+a{
+    color: black;
+    text-decoration:none;
+    text-decoration-color: white;
+}
+
+/* hovering over the links */
+a:hover{
+    color: gray;
+    text-decoration: underline; /* hovering creates an underline */
+    text-underline-offset: 1rem;
+    text-decoration-color: rgb(181, 181, 181);
+}
+
+.logo{
+    font-size: 2rem;
+}
+
+.logo:hover{
+    cursor: default;
+
+}
